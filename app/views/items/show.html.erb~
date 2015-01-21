@@ -1,2 +1,6 @@
 <h1><%= @item.name %></h1>
 
+<p><%= @item.description %></p>
+
+<%= link_to 'Destroy List', item, method: :delete, data: { confirm: 'Are you sure?' } %>
+

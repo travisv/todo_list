@@ -4,4 +4,6 @@
 	  <li><strong><%= i.name %></li></strong>
 	  <%= i.description %>
 	<% end %>
-</ul><br/>
+</ul>
+
+<%= link_to 'Add item' new_item_path %>
