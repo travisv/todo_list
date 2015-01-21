@@ -1,0 +1,7 @@
+<h1>To Do Lists</h1>
+<ul>
+	<% @items.each do |i| %>
+	  <li><strong><%= i.name %></li></strong>
+	  <%= i.description %>
+	<% end %>
+</ul><br/>
